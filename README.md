@@ -1,15 +1,22 @@
 # Markdown-it-meta
+
+[![Build Status](https://img.shields.io/travis/GerHobbelt/markdown-it-meta/master.svg?style=flat)](https://travis-ci.org/GerHobbelt/markdown-it-meta)
+[![NPM version](https://img.shields.io/npm/v/@gerhobbelt/markdown-it-meta.svg?style=flat)](https://www.npmjs.org/package/@gerhobbelt/markdown-it-meta)
+[![Coverage Status](https://img.shields.io/coveralls/GerHobbelt/markdown-it-meta/master.svg?style=flat)](https://coveralls.io/r/GerHobbelt/markdown-it-meta?branch=master)
+
 Markdown-it plugin to add YAML metadata
 
 ## Install
+
 ```sh
-$ npm install markdown-it-meta --save
+$ npm install @gerhobbelt/markdown-it-meta --save
 ```
 
 ## Use
+
 ```js
-const MarkdownIt = require('markdown-it')
-const meta = require('markdown-it-meta')
+const MarkdownIt = require('@gerhobbelt/markdown-it')
+const meta = require('@gerhobbelt/markdown-it-meta')
 
 // Make new instance
 const md = new MarkdownIt()
@@ -24,7 +31,9 @@ return {
 ```
 
 ## Features
+
 Adds YAML to markdown documents to be used as meta data.
+
 - Make Strings
 - Make Arrays
 - Make Objects
@@ -43,3 +52,4 @@ demographics:
 ---
 ## Hello World
 ```
+

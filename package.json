@@ -1,13 +1,7 @@
 {
-  "name": "markdown-it-meta",
-  "version": "0.0.1",
-  "scripts": {
-    "start": "index.js"
-  },
-  "dependencies": {
-    "js-yaml": "^3.8.1"
-  },
-  "description": "Markdown-it Metadata as yaml for markdown documents",
+  "name": "@gerhobbelt/markdown-it-meta",
+  "version": "0.0.2-1",
+  "description": "Markdown-it Metadata as YAML for markdown documents",
   "main": "index.js",
   "keywords": [
     "markdown-it",
@@ -15,6 +9,24 @@
     "metadata",
     "markdown"
   ],
-  "author": "scott-wyatt",
-  "license": "MIT"
+  "repository": "GerHobbelt/markdown-it-meta",
+  "author": "Scott Wyatt",
+  "license": "MIT",
+  "scripts": {
+    "test": "make test",
+    "build": "make",
+    "pub": "npm publish --access public"
+  },
+  "dependencies": {
+    "@gerhobbelt/js-yaml": "3.10.1-5"
+  },
+  "devDependencies": {
+    "browserify": "14.5.0",
+    "eslint": "4.10.0",
+    "istanbul": "0.4.5",
+    "@gerhobbelt/markdown-it": "8.4.0-17",
+    "@gerhobbelt/markdown-it-testgen": "0.1.5-5",
+    "mocha": "4.0.1",
+    "uglify-js": "3.1.6"
+  }
 }
